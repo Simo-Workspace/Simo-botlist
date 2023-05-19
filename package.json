@@ -1,0 +1,12 @@
+{
+  "name": "simo-botlist",
+  "version": "1.0.0",
+  "description": "Simo é um projeto open source com o objetivo de ajudar desenvolvedores a alavancar seus respectivos bots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
