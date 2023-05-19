@@ -2,11 +2,16 @@
   "name": "simo-botlist",
   "version": "1.0.0",
   "description": "Simo é um projeto open source com o objetivo de ajudar desenvolvedores a alavancar seus respectivos bots.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx index.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
 }
