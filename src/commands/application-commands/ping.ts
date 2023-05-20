@@ -1,0 +1,18 @@
+import type { ApplicationCommandStructure } from "../../typings";
+
+export default {
+    name: 'ping',
+    async run(client, interaction) {
+        const targetShard: number = interaction.options.getInteger('shard') ?? 0;
+        const shard = client.ws.shards.get(targetShard);
+
+        if (!shard) return interaction.reply({
+            content: `Shard ${targetShard} não foi encontrado`,
+            ephemeral: true 
+        });
+
+        return interaction.reply({
+            content: `Latência ${shard.ping}` 
+        });
+    }
+} as ApplicationCommandStructure;

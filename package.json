@@ -10,8 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "discord.js": "^14.11.0",
     "mongoose": "^7.2.0",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0"
   }
 }

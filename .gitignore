@@ -5,3 +5,12 @@
 # Testes
 
 /index.spec.ts
+
+# Módulos
+
+/node_modules
+/package-lock.json
+
+# Secretos
+
+.config.json
